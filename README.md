@@ -12,4 +12,4 @@ Replace_line: replaces a specific line from the file.<br>
 - Replaces line 2 from myfile.txt with "hi blud"
 
 **To install, just copy the code from main and paste it at the top of your code.**
-**Some text editors will allow you to collapse the "while 1 == 1:" at the top of the code, hence why it is put there.**
+**Some text editors will allow you to collapse the "if 1 == 1:" at the top of the code, hence why it is put there.**
