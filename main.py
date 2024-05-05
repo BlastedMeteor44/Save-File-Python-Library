@@ -1,4 +1,4 @@
-while 1 == 1:
+if 1 == 1:
   def replace_line(filename, line_number, text):
       with open(filename) as file:
         lines = file.readlines()
