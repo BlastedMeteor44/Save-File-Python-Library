@@ -15,12 +15,11 @@ def read_line(fname, lnum):
     lines = file.readlines()
     file.close()
   except:
-    print("Error reading file.")
-    return 
+    return("Error reading line!") 
   total_lines = len(lines)
   if (lnum > total_lines):
-    print(str(total_lines) + " file lines.")
-    print("Can't read line " + str(lnum) + "!")
+    return(str(total_lines) + " file lines.")
+    return("Can't read line " + str(lnum) + "!")
   else:
     line = lines[lnum - 1].rstrip('\n')
     return(line)
